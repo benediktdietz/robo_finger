@@ -1,0 +1,2 @@
+steps	episodes	elapsed	mean	median	stdev	max	min	average_q1	average_q2	average_q_func1_loss	average_q_func2_loss	n_updates	average_entropy	temperature
+5000	207	26.532728910446167	160.4418832708555	158.63631160987296	16.80487923343316	186.08135211855887	131.37685003801002	nan	nan	nan	nan	0	nan	1.0

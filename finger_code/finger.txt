@@ -1,0 +1,9 @@
+executable              = finger.sh
+log                     = run_logs/log_$(Process).log
+output                  = run_logs/out_$(Process).txt
+error                   = run_logs/errors_$(Process).txt
+request_gpus 			= 2
+request_cpus 			= 8
+request_memory			= 20000
+requirements            = TARGET.CUDAGlobalMemoryMb > 10000
+queue
